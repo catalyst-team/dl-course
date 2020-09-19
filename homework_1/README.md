@@ -1,4 +1,4 @@
-# Homewrok 1
+# Homework 1
 
 This homework is about autograd and gentle introduction to Catalyst framework.
 Engine part is almost copied from Andrej Karpathy's [micrograd repo](https://github.com/karpathy/micrograd).
