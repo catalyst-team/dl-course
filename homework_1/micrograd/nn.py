@@ -1,6 +1,6 @@
 import numpy as np
 
-from .engine import Value, Tensor
+from engine import Value, Tensor
 
 
 class Module:
