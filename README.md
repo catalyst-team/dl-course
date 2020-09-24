@@ -33,7 +33,6 @@ This is an open deep learning course made by [Deep Learning School](https://dlsc
 ## Course staff & contributors
 
 - [@artek0chumak](https://github.com/artek0chumak)
-
 - [@Scitator](https://github.com/Scitator)
-
 - [@elephantmipt](https://github.com/elephantmipt)
+- [@lordofprograms](https://github.com/lordofprograms)
