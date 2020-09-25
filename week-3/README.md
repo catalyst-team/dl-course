@@ -5,7 +5,7 @@
 
 ## Practice
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]()
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://drive.google.com/file/d/1qaaYk8tz9RRQYW6YSo3_orqdkqhPaQ_p/view?usp=sharing)
 
 Open `seminar.ipynb` and follow the instructions here.
 
