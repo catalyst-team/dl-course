@@ -13,11 +13,13 @@ This is an open deep learning course made by [Deep Learning School](https://dlsc
 
 - week 1: Into to deep learning
   - Deep learning – introduction, backpropagation algorithm. Optimization methods
-  - Neural Network in numpy.
+  - Neural Network in numpy
 - week 2: Deep learning frameworks
   - Regularization methods and deep learning frameworks
   - Pytorch basics & extras
 - week 3: Convolutional Neural Network
+  - CNN. Model Zoo
+  - Convolutional kernels. ResNet. Simple Noise Attack
 - week 4: Object Detection, Image Segmentation
 - week 5: Metric Learning
 - week 6: Autoencoders
