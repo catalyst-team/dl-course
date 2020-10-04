@@ -21,6 +21,8 @@ This is an open deep learning course made by [Deep Learning School](https://dlsc
   - CNN. Model Zoo
   - Convolutional kernels. ResNet. Simple Noise Attack
 - week 4: Object Detection, Image Segmentation
+  - Object Detection. (One, Two)-Stage methods. Anchors.
+  - Image Segmentation. Up-scaling. FCN, U-net, FPN. DeepMask.
 - week 5: Metric Learning
 - week 6: Autoencoders
 - week 7: Generative Adversarial Models
