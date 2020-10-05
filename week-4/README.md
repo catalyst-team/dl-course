@@ -1,4 +1,4 @@
-# Frameworks & Regularization
+# Object Detection, Image Segmentation
 
 - [Lecture](https://docs.google.com/presentation/d/19kTDYhXyxJGtvOaJLAXLM6rwwRNKQ42czyObJNxismU/edit?usp=sharing)
 - [Video(rus)]()

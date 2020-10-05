@@ -1,7 +1,8 @@
 # Frameworks & Regularization
 
 - [Lecture](https://docs.google.com/presentation/d/10qeO6BlGS_obgoIJpZtwAL_fRyHFsZ-AjuVYF8bAj_8/edit?usp=sharing)
-- Video(rus) (soon)
+- [Video(rus)](https://www.youtube.com/watch?v=CL-zOUZrxOM)
+- [Video seminar(rus)](https://www.youtube.com/watch?v=6dfvtp5qLds)
 
 ## Practice
 
