@@ -2,7 +2,7 @@
 
 Hi! This part of the homework is focused on segmentation task.
 You will code a model to separate a flower bloom from background.
-To get maximum score, your model should have `hmm` IoU on the test part of dataset.
+To get maximum score, your model should have `0.8` IoU on the test part of dataset.
 Remember, that Kaggle competitions have **public** and **private** parts of test dataset. 
 So, final score will be considered on metrics of both parts.
 
