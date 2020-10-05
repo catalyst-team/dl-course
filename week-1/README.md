@@ -2,6 +2,7 @@
 
 - [Lecture](https://docs.google.com/presentation/d/1xO9fcTEe2c8mzY0j9Wa8G5gCRh6YNr3o3UTHxbAPDXk/edit?usp=sharing)
 - [Video(rus)](https://www.youtube.com/watch?v=Szp2mcDyl7U)
+- [Video seminar(rus)](https://www.youtube.com/watch?v=yek6OzcGiTo)
 
 ## Practice:
 
