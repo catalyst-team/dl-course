@@ -1,7 +1,7 @@
 # Computer Vision. CNN
 
 - [Lecture](https://docs.google.com/presentation/d/1r09xMXRjrxtLq8IiQNynAb5cPduHcgAqlvAggJp9ZMo/edit?usp=sharing)
-- [Video(rus)]()
+- [Video(rus)](https://www.youtube.com/watch?v=JfzEFpEAAEI)
 
 ## Practice
 

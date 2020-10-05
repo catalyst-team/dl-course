@@ -1,7 +1,8 @@
 # Object Detection, Image Segmentation
 
 - [Lecture](https://docs.google.com/presentation/d/19kTDYhXyxJGtvOaJLAXLM6rwwRNKQ42czyObJNxismU/edit?usp=sharing)
-- [Video(rus)]()
+- [Video(rus)](https://www.youtube.com/watch?v=4yJEI650T2g)
+- [Video seminar(rus)](https://www.youtube.com/watch?v=RuCN85MoKlM)
 
 ## Practice
 
