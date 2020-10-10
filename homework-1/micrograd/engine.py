@@ -137,6 +137,7 @@ class Tensor:
     for example in Linear layers.
     """
     def __init__(self, data):
+        # data elements must be of type Value
         self.data = np.array(data)
 
     def __add__(self, other):
