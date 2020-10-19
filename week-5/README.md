@@ -1,4 +1,5 @@
-# Frameworks & Regularization
+# Metric Learning
+
 
 - [Lecture](https://docs.google.com/presentation/d/1Cu6z5zkm7Xn-DOJdcUrW06PjsnQU-obtpdPino2CUmY/edit?usp=sharing)
 - [Video(rus)](https://www.youtube.com/watch?v=bvcC4hXaIJY)
