@@ -30,6 +30,7 @@ class Linear(Module):
         return ...
 
     def parameters(self):
+        # return 1-d list of all parameters List[Value]
         return ...
 
 
