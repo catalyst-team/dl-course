@@ -1,4 +1,4 @@
-# Frameworks & Regularization
+# AutoEncoders
 
 - [Lecture](https://docs.google.com/presentation/d/1OJd1trewTICi2fvqXplFXzCmJUi5oasLpBMrKPlG6XM/edit?usp=sharing)
 - [Video(rus)](https://www.youtube.com/watch?v=g9PhMXOQVAM&list=PL0Ks75aof3TiXeGWcDNP4t9m9ZmxdaiYR&index=10)
