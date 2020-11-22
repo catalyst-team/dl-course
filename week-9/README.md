@@ -1,8 +1,8 @@
 # Neural Machine Translation
 
 - [Lecture](https://docs.google.com/presentation/d/1Pgp0r9vU-wokPtJySUcztnqQllMz8yc-y9E87UExTwM/edit?usp=sharing)
-- [Video(rus)]()
-- [Video seminar(rus)]()
+- [Video(rus)](https://youtu.be/tRDhpkjxBOo)
+- [Video seminar(rus)](https://youtu.be/gkqEbLD-O0E)
 
 ## Practice
 

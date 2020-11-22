@@ -1,8 +1,8 @@
 # Recommender System
 
 - [Lecture](https://docs.google.com/presentation/d/1GpcDxeHmaBBlAeZ_vsn5R0l9QaK5D8E4eUfoaRiCPco/edit?usp=sharing)
-- [Video(rus)]()
-- [Video seminar(rus)]()
+- [Video(rus)](https://youtu.be/ws3b-qqJV8c)
+- [Video seminar(rus)](https://youtu.be/aYXwVFitMyU)
 
 ## Practice
 

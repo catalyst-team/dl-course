@@ -1,8 +1,8 @@
 # Embeddings. RNNs.
 
 - [Lecture](https://docs.google.com/presentation/d/1Gz1YENgW-V1CygyH-ixjOPvO5vxgvj1S3cOCRAYtj3Y/edit?usp=sharing)
-- [Video(rus)]()
-- [Video seminar(rus)]()
+- [Video(rus)](https://youtu.be/IvLFG6XJe58)
+- [Video seminar(rus)](https://youtu.be/CmyvkYJgSwY)
 
 ## Practice
 

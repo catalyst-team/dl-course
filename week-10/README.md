@@ -1,8 +1,8 @@
 # Transfer Learning in NLP
 
 - [Lecture](https://docs.google.com/presentation/d/1-hzGmasELzL6sFUCmC4bQe51LIKssSrevoms5WjqSeo/edit?usp=sharing)
-- [Video(rus)]()
-- [Video seminar(rus)]()
+- [Video(rus)](https://youtu.be/K41nKSpvyO8)
+- [Video seminar(rus)](https://youtu.be/i860i1tHJUc)
 
 ## Practice
 
