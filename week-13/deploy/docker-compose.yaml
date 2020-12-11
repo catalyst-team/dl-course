@@ -1,0 +1,39 @@
+version: "3"
+
+services:
+  queue:
+    image: rabbitmq:3.7-management-alpine
+    environment:
+      - RABBITMQ_ERLANG_COOKIE=3WzUFfk71jdJxjMjhNsT
+      - RABBITMQ_DEFAULT_USER=admin
+      - RABBITMQ_DEFAULT_PASS=8c85904bf645
+    ports:
+      - 15672:15672
+
+  services:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    command: python services.py
+    depends_on:
+      - queue
+
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    command: uvicorn web:app --host 0.0.0.0
+    ports:
+      - 8000:8000
+    depends_on:
+      - services
+
+  tgbot:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    environment:
+      TG_TOKEN: ${TG_TOKEN}
+    command: python tgbot.py
+    depends_on:
+      - services

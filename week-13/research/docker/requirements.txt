@@ -1,0 +1,10 @@
+torch==1.7.0
+torchvision==0.8.1
+catalyst==20.11
+optuna==2.3.0
+imageio==2.9.0
+albumentations==0.5.2
+kornia==0.4.1
+opencv-python-headless==4.4.0.46
+scikit-image==0.17.2
+segmentation-models-pytorch==0.1.2
