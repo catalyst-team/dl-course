@@ -1,0 +1,76 @@
+model_params:
+  model: SimpleNet
+  num_filters1: 4
+  num_filters2: 32
+  num_hiddens1: 64
+  num_hiddens2: 64
+  num_classes: 10
+
+
+runner_params:
+  input_key: "image"
+
+
+args:
+  expdir: "./experiments/simple/"
+  baselogdir: "./logs/simple"
+  seed: 42
+  deterministic: True
+  benchmark: False
+  verbose: True
+
+
+stages:
+
+  data_params:
+    batch_size: 64
+    num_workers: 2
+
+  transform_params:
+    transform: albumentations.Compose
+    transforms:
+      - transform: albumentations.LongestMaxSize
+        max_size: 32
+      - transform: albumentations.PadIfNeeded
+        min_height: 32
+        min_width: 32
+      - transform: albumentations.Normalize
+      - transform: catalyst.ImageToTensor
+
+  stage_params:
+    num_epochs: 3
+    main_metric: &reduced_metric accuracy01
+    minimize_metric: False
+
+  criterion_params:
+    criterion: CrossEntropyLoss
+
+  scheduler_params:
+    scheduler: MultiStepLR
+    milestones: [10]
+    gamma: 0.3
+
+  callbacks_params:
+    loss:
+      callback: CriterionCallback
+    optimizer:
+      callback: OptimizerCallback
+    accuracy:
+      callback: AccuracyCallback
+      accuracy_args: [1,]
+    scheduler:
+      callback: SchedulerCallback
+      reduced_metric: *reduced_metric
+    saver:
+      callback: CheckpointCallback
+      save_n_best: 1
+
+  stage1:
+    optimizer_params:
+      optimizer: Adam
+
+      lr_linear_scaling:
+        lr: 0.001
+        base_batch_size: 64
+      weight_decay: 0.0001
+      no_bias_weight_decay: True

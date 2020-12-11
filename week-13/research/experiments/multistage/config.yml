@@ -1,0 +1,100 @@
+study_params:
+  pruner_params:
+    pruner: MedianPruner
+    n_startup_trials: 1
+    n_warmup_steps: 4
+    interval_steps: 1
+
+
+model_params:
+  model: SimpleNet
+  num_filters1: "trial.suggest_int('num_filters1', 4, 32)"
+  num_filters2: "trial.suggest_int('num_filters2', 4, 32)"
+  num_hiddens1: "trial.suggest_int('num_hiddens1', 32, 128)"
+  num_hiddens2: "trial.suggest_int('num_hiddens2', 32, 128)"
+  num_classes: 10
+
+
+runner_params:
+  input_key: "image"
+
+
+args:
+  expdir: "./experiments/multistage"
+  baselogdir: "./logs/multistage"
+  seed: 42
+  deterministic: True
+  benchmark: False
+  verbose: True
+  n_trials: 100
+
+
+stages:
+
+  data_params:
+    batch_size: 64
+    num_workers: 2
+
+  transform_params:
+    transform: albumentations.Compose
+    transforms:
+      - transform: albumentations.LongestMaxSize
+        max_size: 32
+      - transform: albumentations.PadIfNeeded
+        min_height: 32
+        min_width: 32
+      - transform: albumentations.Normalize
+      - transform: catalyst.ImageToTensor
+
+  stage_params:
+    num_epochs: 3
+    main_metric: &reduced_metric accuracy01
+    minimize_metric: False
+
+  criterion_params:
+    criterion: CrossEntropyLoss
+
+  scheduler_params:
+    scheduler: MultiStepLR
+    milestones: [10]
+    gamma: 0.3
+
+  callbacks_params:
+    loss:
+      callback: CriterionCallback
+    optimizer:
+      callback: OptimizerCallback
+    accuracy:
+      callback: AccuracyCallback
+      accuracy_args: [1,]
+    scheduler:
+      callback: SchedulerCallback
+      reduced_metric: *reduced_metric
+    saver:
+      callback: CheckpointCallback
+      save_n_best: 1
+    optuna_pruner:
+      callback: OptunaPruningCallback
+
+  stage1:
+    optimizer_params:
+      optimizer: Adam
+
+      lr_linear_scaling:
+        lr: "trial.suggest_loguniform('lr1', 1e-5, 1e-2)"
+        base_batch_size: 64
+      weight_decay: 0.0001
+      no_bias_weight_decay: True
+
+  stage2:
+    stage_params:
+      num_epochs: 3
+
+    optimizer_params:
+      optimizer: Adam
+
+      lr_linear_scaling:
+        lr: "trial.suggest_loguniform('lr2', 1e-5, 1e-2)"
+        base_batch_size: 64
+      weight_decay: 0.0001
+      no_bias_weight_decay: True
