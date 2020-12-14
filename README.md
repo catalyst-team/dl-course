@@ -30,13 +30,26 @@ This is an open deep learning course made by [Deep Learning School](https://dlsc
   - AutoEncoders. Denoise, Sparse, Variational.
   - Generative Models. Autoregressive models.
 - week 7: Generative Adversarial Models
+  - Generative Adversarial Networks. VAE-GAN. AAE.
+  - Energy based model.
 - week 8: Natural Language Processing
+  - Embeddings
+  - RNN. LSTM, GRU.
 - week 9: Attention and transformer model
-- week 10: Advanced NLP
+  - Attention Mechanism.
+  - Transformer Model.
+- week 10: Transfer Learning in NLP
+  - Pretrained Transformers. BERT. GPT.
+  - Data Augmentation in Texts. Domain Adaptation.
 - week 11: Recommender System
+  - Collaborative Filtering. FunkSVD.
+  - Neural Collaborative Filtering.
 - week 12: Reinforcement Learning for RecSys
-- week 13: Engineering stuff for DL
-- week 14: DL Best Practices
+  - Reinforcement Learning. DQN Algorithm. 
+  - DDPG Algorithm. Wolpertinger.
+- week 13: Extras
+  - Research & Deploy.
+  - Config API. Reaction.
 
 ## Course staff & contributors
 
