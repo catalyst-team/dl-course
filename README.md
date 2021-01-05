@@ -1,13 +1,8 @@
-# Deep Learning with Catalyst
+# Deep Learning with Catalyst [![Stepik](https://img.shields.io/badge/DLS-Stepik-success)](https://stepik.org/course/83344/syllabus) [![Slack](https://img.shields.io/badge/Catalyst-slack-success)](https://join.slack.com/t/catalyst-team-core/shared_invite/zt-d9miirnn-z86oKDzFMKlMG4fgFdZafw)
 
 [![dls-catalyst-course](https://github.com/catalyst-team/catalyst-pics/blob/master/pics/catalyst-dl-course-poster-eng.png)](https://github.com/catalyst-team/dl-course)
 
 This is an open deep learning course made by [Deep Learning School](https://dlschool.org), [Tinkoff](https://tinkoff.ru) and [Catalyst team](https://github.com/catalyst-team). Lectures and practice notebooks located in '''./week*''' folders. Homeworks are in '''./homework*''' folders.
-
-## Useful links
-
-[![Stepik](https://img.shields.io/badge/DLS-Stepik-success)](https://stepik.org/course/83344/syllabus)
-[![Slack](https://img.shields.io/badge/Catalyst-slack-success)](https://join.slack.com/t/catalyst-team-core/shared_invite/zt-d9miirnn-z86oKDzFMKlMG4fgFdZafw)
 
 ## Syllabus
 
