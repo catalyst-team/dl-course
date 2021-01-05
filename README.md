@@ -6,15 +6,15 @@ This is an open deep learning course made by [Deep Learning School](https://dlsc
 
 ## Syllabus
 
-- week 1: Into to deep learning
-  - Deep learning – introduction, backpropagation algorithm. Optimization methods
-  - Neural Network in numpy
+- week 1: Deep learning intro
+  - Deep learning – introduction, backpropagation algorithm. Optimization methods.
+  - Neural Network in numpy.
 - week 2: Deep learning frameworks
-  - Regularization methods and deep learning frameworks
-  - Pytorch basics & extras
+  - Regularization methods and deep learning frameworks.
+  - Pytorch basics & extras.
 - week 3: Convolutional Neural Network
-  - CNN. Model Zoo
-  - Convolutional kernels. ResNet. Simple Noise Attack
+  - CNN. Model Zoo.
+  - Convolutional kernels. ResNet. Simple Noise Attack.
 - week 4: Object Detection, Image Segmentation
   - Object Detection. (One, Two)-Stage methods. Anchors.
   - Image Segmentation. Up-scaling. FCN, U-net, FPN. DeepMask.
@@ -28,7 +28,7 @@ This is an open deep learning course made by [Deep Learning School](https://dlsc
   - Generative Adversarial Networks. VAE-GAN. AAE.
   - Energy based model.
 - week 8: Natural Language Processing
-  - Embeddings
+  - Embeddings.
   - RNN. LSTM, GRU.
 - week 9: Attention and transformer model
   - Attention Mechanism.
@@ -36,7 +36,7 @@ This is an open deep learning course made by [Deep Learning School](https://dlsc
 - week 10: Transfer Learning in NLP
   - Pretrained Transformers. BERT. GPT.
   - Data Augmentation in Texts. Domain Adaptation.
-- week 11: Recommender System
+- week 11: Recommender Systems
   - Collaborative Filtering. FunkSVD.
   - Neural Collaborative Filtering.
 - week 12: Reinforcement Learning for RecSys
