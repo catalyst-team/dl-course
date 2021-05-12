@@ -11,6 +11,4 @@ class rpc(RabbitRPC):
     URL = "amqp://admin:8c85904bf645@queue"
 
 
-app = FastAPI(
-    debug=True, title="Reaction TeleBot Example", version=__version__
-)
+app = FastAPI(debug=True, title="Reaction TeleBot Example", version=__version__)

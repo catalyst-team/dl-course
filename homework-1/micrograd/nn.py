@@ -1,12 +1,12 @@
+from engine import Tensor, Value
 import numpy as np
-
-from engine import Value, Tensor
 
 
 class Module:
     """
     Base class for every layer.
     """
+
     def forward(self, *args, **kwargs):
         """Depends on functionality"""
         pass
@@ -36,6 +36,7 @@ class Linear(Module):
 
 class ReLU(Module):
     """The most simple and popular activation function"""
+
     def forward(self, inp):
         # Create ReLU Module
         return ...
@@ -43,6 +44,7 @@ class ReLU(Module):
 
 class CrossEntropyLoss(Module):
     """Cross-entropy loss for multi-class classification"""
+
     def forward(self, inp, label):
         # Create CrossEntropy Loss Module
         return ...

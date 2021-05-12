@@ -31,17 +31,10 @@ async def get_image_info(
     img = imageio.imread(await image.read())
     height, width = (await services.get_shape.call(img))[:2]
     o = Orientation.landscape if width > height else Orientation.portrait
-    return ImageResult(
-        label=label,
-        square=width * height,
-        orientation=o,
-        shape=(width, height),
-    )
+    return ImageResult(label=label, square=width * height, orientation=o, shape=(width, height),)
 
 
 @app.post("/classify", response_model=ClassifyModelResult)
 async def classify(image: UploadFile = File(...)):  # noqa: B008
     img = imageio.imread(await image.read())
-    return ClassifyModelResult(
-        tag=await services.ClassifyModel().predict.call(img),
-    )
+    return ClassifyModelResult(tag=await services.ClassifyModel().predict.call(img),)

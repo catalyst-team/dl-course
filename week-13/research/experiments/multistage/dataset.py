@@ -34,11 +34,7 @@ def get_cat_dogs_dataset(
             json.dump(tag_to_label, file)
 
     df_with_labels = utils.map_dataframe(
-        df,
-        tag_column="class",
-        class_column="label",
-        tag2class=tag_to_label,
-        verbose=False,
+        df, tag_column="class", class_column="label", tag2class=tag_to_label, verbose=False,
     )
 
     train_data, valid_data = utils.split_dataframe_train_test(
@@ -54,14 +50,9 @@ def get_cat_dogs_dataset(
 def get_reader(num_classes: int = 2) -> ReaderCompose:
     return ReaderCompose(
         [
-            ImageReader(
-                input_key="filepath", output_key="image", rootpath="."
-            ),
+            ImageReader(input_key="filepath", output_key="image", rootpath="."),
             ScalarReader(
-                input_key="label",
-                output_key="targets",
-                default_value=-1,
-                dtype=np.int64,
+                input_key="label", output_key="targets", default_value=-1, dtype=np.int64,
             ),
             ScalarReader(
                 input_key="label",
