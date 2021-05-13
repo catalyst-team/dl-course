@@ -14,12 +14,8 @@ class Experiment(ConfigExperiment):
     def get_loaders(self, stage: str, **kwargs) -> tp.Dict[str, DataLoader]:
         loaders = dict()
         data_params = dict(self.stages_config[stage]["data_params"])
-        data_path = (
-            Path(os.getenv("DATA_PATH")) / "data_cat_dogs"
-        ).as_posix() + "/*"
-        tag_file_path = (
-            Path(os.getenv("DATA_PATH")) / "cat_dog_labeling.json"
-        ).as_posix()
+        data_path = (Path(os.getenv("DATA_PATH")) / "data_cat_dogs").as_posix() + "/*"
+        tag_file_path = (Path(os.getenv("DATA_PATH")) / "cat_dog_labeling.json").as_posix()
         train_data, valid_data, num_classes = get_cat_dogs_dataset(
             data_path, tag_file_path=tag_file_path
         )
