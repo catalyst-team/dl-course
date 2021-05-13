@@ -11,13 +11,13 @@ Lectures and practice notebooks located in ```./week*``` folders. Homeworks are 
 
 ## Syllabus
 
-- week 1: Deep learning intro
+- [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/catalyst-team/dl-course/blob/master/week-01/seminar.ipynb) week 1: Deep learning intro
   - Deep learning – introduction, backpropagation algorithm. Optimization methods.
   - Neural Network in numpy.
-- week 2: Deep learning frameworks
+- [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/catalyst-team/dl-course/blob/master/week-02/seminar.ipynb) week 2: Deep learning frameworks
   - Regularization methods and deep learning frameworks.
   - Pytorch basics & extras.
-- week 3: Convolutional Neural Network
+- [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/catalyst-team/dl-course/blob/master/week-03/seminar.ipynb) week 3: Convolutional Neural Network
   - CNN. Model Zoo.
   - Convolutional kernels. ResNet. Simple Noise Attack.
 - *[WIP] week 4: Object Detection, Image Segmentation*
