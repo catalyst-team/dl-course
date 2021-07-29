@@ -20,16 +20,16 @@ Lectures and practice notebooks located in ```./week*``` folders. Homeworks are 
 - [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/catalyst-team/dl-course/blob/master/week-03/seminar.ipynb) week 3: Convolutional Neural Network
   - CNN. Model Zoo.
   - Convolutional kernels. ResNet. Simple Noise Attack.
-- *[WIP] week 4: Object Detection, Image Segmentation*
+- [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/catalyst-team/dl-course/blob/master/week-04/seminar_done.ipynb) week 4: Object Detection, Image Segmentation*
   - Object Detection. (One, Two)-Stage methods. Anchors.
   - Image Segmentation. Up-scaling. FCN, U-net, FPN. DeepMask.
-- *[WIP] week 5: Metric Learning*
+- [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/catalyst-team/dl-course/blob/master/week-05/seminar_done.ipynb) week 5: Metric Learning*
   - Metric Learning. Contrastive and Triplet Loss. Samplers.
   - Cross Entropy Loss modifications. SphereFace, CosFace, ArcFace.
-- *[WIP] week 6: Autoencoders*
+- [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/catalyst-team/dl-course/blob/master/week-06/seminar_done.ipynb) week 6: Autoencoders*
   - AutoEncoders. Denoise, Sparse, Variational.
   - Generative Models. Autoregressive models.
-- *[WIP] week 7: Generative Adversarial Models*
+- [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/catalyst-team/dl-course/blob/master/week-07/seminar_done.ipynb) week 7: Generative Adversarial Models*
   - Generative Adversarial Networks. VAE-GAN. AAE.
   - Energy based model.
 - *[WIP] week 8: Natural Language Processing*
