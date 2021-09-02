@@ -1,4 +1,4 @@
-# Deep Learning with Catalyst [![Stepik](https://img.shields.io/badge/DLS-Stepik-success)](https://stepik.org/course/83344/syllabus) [![Slack](https://img.shields.io/badge/Catalyst-slack-success)](https://join.slack.com/t/catalyst-team-core/shared_invite/zt-d9miirnn-z86oKDzFMKlMG4fgFdZafw)
+# Deep Learning with Catalyst [![Stepik](https://img.shields.io/badge/DLS-Stepik-success)](https://stepik.org/course/83344/syllabus) [![Slack](https://img.shields.io/badge/Catalyst-slack-success)](https://join.slack.com/t/catalyst-team-devs/shared_invite/zt-d9miirnn-z86oKDzFMKlMG4fgFdZafw)
 
 [![dls-catalyst-course](https://github.com/catalyst-team/catalyst-pics/blob/master/pics/catalyst-dl-course-poster-eng.png)](https://github.com/catalyst-team/dl-course)
 
@@ -32,21 +32,22 @@ Lectures and practice notebooks located in ```./week*``` folders. Homeworks are 
 - [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/catalyst-team/dl-course/blob/master/week-07/seminar_done.ipynb) week 7: Generative Adversarial Models
   - Generative Adversarial Networks. VAE-GAN. AAE.
   - Energy based model.
-- *[WIP] week 8: Natural Language Processing*
+- [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/catalyst-team/dl-course/blob/master/week-08/seminar_done.ipynb) week 8: Natural Language Processing
   - Embeddings.
   - RNN. LSTM, GRU.
-- *[WIP] week 9: Attention and transformer model*
+- [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/catalyst-team/dl-course/blob/master/week-09/seminar_done.ipynb) week 9: Attention and transformer model
   - Attention Mechanism.
   - Transformer Model.
-- *[WIP] week 10: Transfer Learning in NLP*
+- [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/catalyst-team/dl-course/blob/master/week-10/seminar_done.ipynb) week 10: Transfer Learning in NLP
   - Pretrained Transformers. BERT. GPT.
   - Data Augmentation in Texts. Domain Adaptation.
-- *[WIP] week 11: Recommender Systems*
+- [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/catalyst-team/dl-course/blob/master/week-11/seminar_done.ipynb) week 11: Recommender Systems
   - Collaborative Filtering. FunkSVD.
   - Neural Collaborative Filtering.
-- *[WIP] week 12: Reinforcement Learning for RecSys*
-  - Reinforcement Learning. DQN Algorithm. 
-  - DDPG Algorithm. Wolpertinger.
+- week 12: Reinforcement Learning for RecSys
+  - [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/catalyst-team/dl-course/blob/master/week-12/Catalyst_RL_DQN_done.ipynb) DQN Algorithm. 
+  - [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/catalyst-team/dl-course/blob/master/week-12/Catalyst_RL_DDPG_done.ipynb) DDPG Algorithm.
+  - [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/catalyst-team/dl-course/blob/master/week-12/Catalyst_RL_RecSim_done.ipynb) RecSim with Wolpertinger.
 - *[WIP] week 13: Extras*
   - Research & Deploy.
   - Config API. Reaction.
@@ -81,7 +82,7 @@ pip install -U catalyst==21.04.2 torch==1.8.0 albumentations==0.5.0
 - [@artek0chumak](https://github.com/artek0chumak)
 - [@elephantmipt](https://github.com/elephantmipt)
 - [@Inkln](https://github.com/Inkln)
+- [@Fulldis](https://github.com/Fulldis)
 - [@lordofprograms](https://github.com/lordofprograms)
 - [@Scitator](https://github.com/Scitator)
 - [@zelcookie](https://github.com/zelcookie)
-
